@@ -18,16 +18,16 @@
 	
 	// POSTで送信された場合は$_GETを$_POSTに書き換える
 	// name=txt_aの欄から受け取ったデータ
-	//echo "名前は".$_GET[txt_a]."です<hr />";
-	echo "名前は".$_POST[txt_a]."です<hr />";
+	//echo "名前は".$_GET["txt_a"]."です<hr />";
+	echo "名前は".$_POST["txt_a"]."です<hr />";
 	
 	// name=txt_bの欄から受け取ったデータ
-	//echo "住所は".$_GET[txt_b]."です<hr />";
-	echo "住所は".$_POST[txt_b]."です<hr />";
+	//echo "住所は".$_GET["txt_b"]."です<hr />";
+	echo "住所は".$_POST["txt_b"]."です<hr />";
 	
 	// ラジオボタンから受け取ったデータ
-	//echo "性別は".$_GET[rd_a]."です<hr />";
-	echo "性別は".$_POST[rd_a]."です<hr />";
+	//echo "性別は".$_GET["rd_a"]."です<hr />";
+	echo "性別は".$_POST["rd_a"]."です<hr />";
 ?>
 	</body>
 	
